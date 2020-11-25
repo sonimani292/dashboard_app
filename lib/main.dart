@@ -36,7 +36,7 @@ class HomeState extends State<Home> {
             onPressed: () {},
           ),
         ],
-        backgroundColor: Colors.amber[300],
+        backgroundColor: Colors.cyan[300],
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,

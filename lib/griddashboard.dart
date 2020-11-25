@@ -7,26 +7,26 @@ class GridDashboard extends StatelessWidget {
   Items item1 = new Items(
       title: "Discover",
       subtitle: "Your Taste",
-      event: "3 Events",
-      img: "assets/images/docker.png");
+      event: "",
+      img: "assets/images/discover.png");
 
   Items item2 = new Items(
-    title: "Ingredients",
+    title: "Ingredients Scanner",
     subtitle: "Just in case you want a better overview",
-    event: "4 Items",
-    img: "assets/images/docker.png",
+    event: "",
+    img: "assets/images/scan.png",
   );
   Items item3 = new Items(
     title: "Search",
-    subtitle: "",
-    event: "search what u want",
-    img: "assets/images/docker.png",
+    subtitle: "search what u want",
+    event: "",
+    img: "assets/images/search.png",
   );
   Items item4 = new Items(
     title: "Favourites",
     subtitle: "See your favourites later here.",
     event: "",
-    img: "assets/images/docker.png",
+    img: "assets/images/favv.png",
   );
   // Items item5 = new Items(
   //   title: "To do",
@@ -44,7 +44,7 @@ class GridDashboard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<Items> myList = [item1, item2, item3, item4];
-    var color = 0xff453658;
+    var color = Colors.cyan;
     return Flexible(
       child: GridView.count(
           childAspectRatio: 1.0,
@@ -55,7 +55,7 @@ class GridDashboard extends StatelessWidget {
           children: myList.map((data) {
             return Container(
               decoration: BoxDecoration(
-                  color: Colors.amber[300],
+                  color: Colors.cyan[300],
                   borderRadius: BorderRadius.circular(10)),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
