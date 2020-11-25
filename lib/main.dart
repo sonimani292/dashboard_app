@@ -28,7 +28,7 @@ class HomeState extends State<Home> {
     return Scaffold(
       // backgroundColor: Colors.whit,
       appBar: AppBar(
-        title: Text('Manisha Soni'),
+        title: Text('Home Screen'),
         //don't change.
         actions: [
           IconButton(
