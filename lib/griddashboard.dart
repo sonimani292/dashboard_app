@@ -24,7 +24,7 @@ class GridDashboard extends StatelessWidget {
   );
   Items item4 = new Items(
     title: "Favourites",
-    subtitle: "See your fav later here.",
+    subtitle: "See your favourites later here.",
     event: "",
     img: "assets/images/docker.png",
   );
