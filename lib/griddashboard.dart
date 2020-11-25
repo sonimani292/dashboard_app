@@ -19,7 +19,7 @@ class GridDashboard extends StatelessWidget {
   Items item3 = new Items(
     title: "Search",
     subtitle: "",
-    event: "",
+    event: "search what u want",
     img: "assets/images/docker.png",
   );
   Items item4 = new Items(
